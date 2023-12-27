@@ -22,7 +22,7 @@ export function Theme() {
       startContent={<Sun />}
       endContent={<Moon />}
       isSelected={theme === "light"}
-      onValueChange={(isSelected: boolean) => isSelected ? setTheme('light') : setTheme('dark')}
+      onValueChange={(isSelected: boolean) => theme === "light" ? setTheme('dark') : setTheme('light')}
     />
   )
 };
