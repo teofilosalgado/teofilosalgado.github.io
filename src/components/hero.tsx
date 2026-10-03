@@ -13,9 +13,9 @@ export default function Hero() {
         <div className="p-4 md:p-6 md:pr-3 lg:p-0">
           <div className="text-gray-700 dark:text-green-600 dark:font-semibold mb-2">Hello, my name is</div>
           <div className="font-extrabold text-gray-800 dark:text-green-400 text-6xl tracking-tighter mb-2">João Victor</div>
-          <div className="font-bold text-gray-600 dark:text-green-500 tracking-tighter text-4xl mb-6">I develop solutions for complex problems.</div>
+          <div className="font-bold text-gray-600 dark:text-green-500 tracking-tighter text-4xl mb-6">I develop solutions for complex <span class="bg-gradient-to-b from-transparent from-60% to-green-100 to-60%">spatial</span> problems.</div>
           <div className="text-justify">
-            Software engineer consultant specialized in developing mission-critical geospatial applications.
+            Esri Certified GIS Solutions Architect specialized in developing mission-critical geospatial applications.
             Currently, I&apos;m focused on designing enterprise-grade, geo-enabled
             solutions at <Link isExternal showAnchorIcon href="https://atos.net/">Atos</Link> for
             utility companies.
